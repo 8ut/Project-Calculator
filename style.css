@@ -1,10 +1,12 @@
-.buttons{
-    display: flex;
-    flex-wrap: wrap;
+.calculator {
 }
-
-.inner-box{
-    width: 50px;
-    height: 50px;
-    background-color: gray;
+.calculator__output {
+}
+.calculator__keys {
+}
+.calculator__key {
+}
+.calculator__key--operator {
+}
+.calculator__key--enter {
 }
