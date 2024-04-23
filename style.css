@@ -1,13 +1,19 @@
 .calculator {
-}
-.calculator__output {
-}
-.calculator__keys {
-}
-.calculator__key {
-}
-.calculator__key--operator {
-}
-.calculator__key--enter {
+    max-inline-size: 22rem;
+    height: 10rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
+.calculator__output {}
+
+.calculator__keys {}
+
+.calculator__key {}
+
+.calculator__key--operator {}
+
+.calculator__key--enter {}
+
+/* This is a single-line comment */
