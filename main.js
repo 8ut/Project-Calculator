@@ -17,6 +17,10 @@ function calculate() {
     var split = display.value.split("")
     console.log(split)
     console.log(split.length)
+
+    for(let i = 0; i< split.length; i++){
+        console.log(split[i])
+    }
 }
 
 
