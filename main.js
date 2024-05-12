@@ -9,6 +9,8 @@ function clearDisplay() {
 }
 
 
+var operandStack = []
+var operaterStack = []
 
 var split = display.value.split(" ")
 console.log(split)
@@ -19,8 +21,21 @@ function calculate() {
     console.log(split.length)
 
     for(let i = 0; i< split.length; i++){
-        console.log(split[i])
+        if(!isNaN(split[i])){
+            console.log(operaterStack.push(split[i]))
+            var val = operaterStack.pop()
+            console.log(val)
+        }else{
+
+        }
+
     }
+}
+
+operandStack.pop()
+
+function simplify(){
+
 }
 
 
